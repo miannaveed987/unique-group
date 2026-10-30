@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10100f">
+<title>About Us | Unique Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="header"><div class="container nav-wrap">
+<a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+<nav class="nav" id="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html" class="nav-contact">Let's Talk ↗</a></nav>
+</div></header>
+<section class="inner-hero" style="--page-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85')">
+<div class="container"><span class="eyebrow">OUR STORY / UNIQUE GROUP</span><h1>Built around<br><em>your vision.</em></h1><p>We build your dreams.</p></div></section>
+<section class="section"><div class="container split-content">
+<div><span class="section-label">WHO WE ARE</span><h2 class="page-heading">A thoughtful approach to <em>building.</em></h2></div>
+<div class="page-copy"><p>Unique Group brings building, design and consultancy together with one simple purpose: to help turn your ideas into meaningful spaces.</p><p>We believe every project deserves careful thought, clear communication and attention to detail. From the first conversation to the planning of your project, our aim is to make your journey more considered and straightforward.</p><p>Based at Broadway, Paragon City, Lahore, we welcome conversations about your next building and design project.</p><a class="btn btn-gold" href="contact.html">Talk to our team ↗</a></div>
+</div></section>
+<section class="statement"><div class="statement-bg"></div><div class="container statement-content"><span>OUR PHILOSOPHY</span><h2>Good spaces begin<br>with <em>great ideas.</em></h2><a class="btn btn-gold" href="services.html">Explore our services ↗</a></div></section>
+<section class="section team"><div class="container"><span class="section-label">THE LEADERSHIP</span><h2 class="page-heading">Meet the <em>team.</em></h2><div class="team-grid">
+<article class="team-card"><div class="team-avatar">MU</div><div><span>CHIEF EXECUTIVE OFFICER</span><h3>M. Usman</h3><a href="tel:03427643833">0342 7643833 ↗</a></div></article>
+<article class="team-card"><div class="team-avatar">OA</div><div><span>MANAGER — CONSTRUCTION</span><h3>Omer Aslam</h3><a href="tel:03225626548">0322 5652648 ↗</a></div></article>
+</div></div></section>
+<footer class="footer"><div class="container footer-top"><a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a><p>WE BUILD YOUR DREAMS.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> UNIQUE GROUP.</span><span>LAHORE, PAKISTAN</span></div></footer>
+<script src="assets/js/main.js"></script></body></html>

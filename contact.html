@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10100f"><title>Contact | Unique Group</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="header"><div class="container nav-wrap"><a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span><span></span><span></span></button><nav class="nav" id="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html" class="nav-contact">Let's Talk ↗</a></nav></div></header>
+<section class="inner-hero" style="--page-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85')"><div class="container"><span class="eyebrow">CONTACT / START A CONVERSATION</span><h1>Let's build<br><em>together.</em></h1><p>We would love to hear about your next project.</p></div></section>
+<section class="section contact"><div class="container contact-grid"><div class="contact-left"><span class="section-label">GET IN TOUCH</span><h2>Tell us about<br>your <em>project.</em></h2><p>Reach out to our team to discuss construction, design or consultancy enquiries.</p>
+<div class="contact-item"><span>OFFICE ADDRESS</span><p>74 Plaza, Broadway,<br>Paragon City, Lahore, Pakistan</p></div>
+</div><div class="contact-details">
+<div class="contact-item"><span>CEO — M. USMAN</span><a href="tel:03427643833">0342 7643833 ↗</a></div>
+<div class="contact-item"><span>MANAGER CONSTRUCTION — OMER ASLAM</span><a href="tel:03225626548">0322 5652648 ↗</a></div>
+<div class="contact-item"><span>WHATSAPP ENQUIRY</span><a href="https://wa.me/923427643833" target="_blank" rel="noopener">Chat with our team ↗</a></div>
+<form class="enquiry-form" id="enquiryForm">
+<label>Your name<input name="name" placeholder="Enter your name" required></label>
+<label>Phone number<input name="phone" type="tel" placeholder="Your contact number" required></label>
+<label>Service required<select name="service"><option>Building & Construction</option><option>Design & Architecture</option><option>Consultancy</option><option>Other enquiry</option></select></label>
+<label>Project details<textarea name="message" rows="4" placeholder="Tell us briefly about your project"></textarea></label>
+<button type="submit" class="btn btn-gold">Send enquiry on WhatsApp ↗</button>
+<p class="form-note">Your enquiry will open in WhatsApp for you to send.</p>
+</form></div></div></section>
+<footer class="footer"><div class="container footer-top"><a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a><p>WE BUILD YOUR DREAMS.</p><a href="#" class="back-top">BACK TO TOP ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> UNIQUE GROUP.</span><span>LAHORE, PAKISTAN</span></div></footer>
+<script src="assets/js/main.js"></script>
+<script>
+document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+ e.preventDefault();
+ const f = new FormData(this);
+ const message = `Unique Group Website Enquiry%0AName: ${encodeURIComponent(f.get('name'))}%0APhone: ${encodeURIComponent(f.get('phone'))}%0AService: ${encodeURIComponent(f.get('service'))}%0ADetails: ${encodeURIComponent(f.get('message'))}`;
+ window.open('https://wa.me/923427643833?text='+message, '_blank');
+});
+</script></body></html>

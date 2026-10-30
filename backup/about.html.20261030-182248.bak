@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10100f">
+<meta name="description" content="Discover Unique Group — Build, Design, Consultant in Lahore, Pakistan.">
+<title>About Unique Group | Build · Design · Consultant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top">
+
+<header class="header">
+<div class="container nav-wrap">
+<a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+<nav class="nav" id="nav">
+<a href="index.html">Home</a><a href="about.html" class="about-active">About</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html" class="nav-contact">Let's Talk ↗</a>
+</nav>
+</div>
+</header>
+
+<section class="about-hero">
+<div class="about-hero-bg"></div>
+<div class="container about-hero-content">
+<span class="eyebrow">GET TO KNOW UNIQUE GROUP</span>
+<h1>Built around<br><em>your vision.</em></h1>
+<p>Thoughtful building, design and consultancy — bringing your ideas closer to reality.</p>
+<a href="contact.html" class="btn btn-gold">GET IN TOUCH <span>↗</span></a>
+</div>
+<div class="about-hero-note">WE BUILD YOUR DREAMS</div>
+</section>
+
+<section class="about-story">
+<div class="container about-story-grid">
+<div class="about-story-label"><span class="section-label">01 / OUR STORY</span><div class="about-gold-line"></div><span class="about-small-note">BUILD · DESIGN · CONSULTANT</span></div>
+<div class="about-story-main">
+<h2>A considered approach to <em>every space.</em></h2>
+<p class="about-lead">Every great project begins with an idea. Our purpose is to help you explore that idea and take the next step with confidence.</p>
+<p>Unique Group brings building, design and consultancy together under one roof. We believe in thoughtful planning, clear communication and attention to the details that matter throughout a project.</p>
+<p>Whether you are considering a new space, improving an existing one or exploring design possibilities, we welcome the opportunity to hear your vision.</p>
+<a class="about-text-link" href="services.html">DISCOVER WHAT WE DO <span>↗</span></a>
+</div>
+</div>
+</section>
+
+<section class="about-values">
+<div class="container">
+<div class="about-values-heading"><span class="section-label">02 / WHAT GUIDES US</span><h2>Our way of <em>thinking.</em></h2></div>
+<div class="about-values-grid">
+<article><span>01</span><h3>Thoughtful Planning</h3><p>Taking time to understand the idea, priorities and direction behind each project.</p></article>
+<article><span>02</span><h3>Clear Communication</h3><p>Keeping conversations straightforward so expectations and next steps are easier to understand.</p></article>
+<article><span>03</span><h3>Attention to Detail</h3><p>Valuing the small decisions that contribute to a considered building and design experience.</p></article>
+</div>
+</div>
+</section>
+
+<section class="about-visual">
+<div class="about-visual-image"></div>
+<div class="container about-visual-content">
+<span class="section-label">03 / OUR PHILOSOPHY</span>
+<h2>Good spaces begin<br>with <em>great ideas.</em></h2>
+<p>We welcome your ideas, questions and plans. Let's start with a conversation.</p>
+<a class="btn btn-gold" href="contact.html">LET'S TALK <span>↗</span></a>
+</div>
+</section>
+
+<section class="about-leadership">
+<div class="container">
+<div class="about-leadership-heading">
+<div><span class="section-label">04 / LEADERSHIP</span><h2>Meet the <em>people.</em></h2></div>
+<p>Connect with the leadership team to discuss your building and design requirements.</p>
+</div>
+<div class="about-leaders-grid">
+<article class="about-leader">
+<div class="about-leader-top"><span>UG / 01</span><div class="about-leader-monogram">MU</div></div>
+<div class="about-leader-bottom"><span>CHIEF EXECUTIVE OFFICER</span><h3>M. Usman</h3><a href="tel:03427643833">0342 7643833 <b>↗</b></a></div>
+</article>
+<article class="about-leader">
+<div class="about-leader-top"><span>UG / 02</span><div class="about-leader-monogram">OA</div></div>
+<div class="about-leader-bottom"><span>MANAGER — CONSTRUCTION</span><h3>Omer Aslam</h3><a href="tel:03225626548">0322 5652648 <b>↗</b></a></div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="about-contact-strip">
+<div class="container about-contact-inner">
+<div><span class="section-label">BASED IN LAHORE, PAKISTAN</span><h2>Let's talk about<br><em>your next idea.</em></h2></div>
+<a class="btn btn-gold" href="contact.html">CONTACT UNIQUE GROUP <span>↗</span></a>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container footer-top">
+<a href="index.html" class="brand"><span class="brand-mark">U<span>G</span></span><span class="brand-name">UNIQUE <b>GROUP</b><small>BUILD · DESIGN · CONSULTANT</small></span></a>
+<p>WE BUILD YOUR DREAMS.</p><a href="#top" class="back-top">BACK TO TOP ↑</a>
+</div>
+<div class="container footer-bottom"><span>© <span id="year"></span> UNIQUE GROUP.</span><span>LAHORE, PAKISTAN</span></div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
